@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F078F9A6257699DC0054E632 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F078F9A5257699DC0054E632 /* InfoView.swift */; };
+		F0B66C98257678BF001498BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B66C97257678BF001498BE /* AppDelegate.swift */; };
+		F0B66C9A257678BF001498BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B66C99257678BF001498BE /* SceneDelegate.swift */; };
+		F0B66C9C257678BF001498BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B66C9B257678BF001498BE /* ContentView.swift */; };
+		F0B66C9E257678C0001498BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0B66C9D257678C0001498BE /* Assets.xcassets */; };
+		F0B66CA1257678C0001498BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0B66CA0257678C0001498BE /* Preview Assets.xcassets */; };
+		F0B66CA4257678C0001498BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0B66CA2257678C0001498BE /* LaunchScreen.storyboard */; };
+		F0B66CAF257678C0001498BE /* KrisCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B66CAE257678C0001498BE /* KrisCardTests.swift */; };
+		F0B66CBA257678C0001498BE /* KrisCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B66CB9257678C0001498BE /* KrisCardUITests.swift */; };
+		F0B66CCE25767E33001498BE /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0B66CCD25767E33001498BE /* Pacifico-Regular.ttf */; };
+		F0B66CCF25767E33001498BE /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0B66CCD25767E33001498BE /* Pacifico-Regular.ttf */; };
+		F0B66CD025767E33001498BE /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0B66CCD25767E33001498BE /* Pacifico-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0B66CAB257678C0001498BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0B66C8C257678BF001498BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0B66C93257678BF001498BE;
+			remoteInfo = KrisCard;
+		};
+		F0B66CB6257678C0001498BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0B66C8C257678BF001498BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0B66C93257678BF001498BE;
+			remoteInfo = KrisCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F078F9A5257699DC0054E632 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		F0B66C94257678BF001498BE /* KrisCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KrisCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0B66C97257678BF001498BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F0B66C99257678BF001498BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F0B66C9B257678BF001498BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F0B66C9D257678C0001498BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0B66CA0257678C0001498BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F0B66CA3257678C0001498BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F0B66CA5257678C0001498BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0B66CAA257678C0001498BE /* KrisCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KrisCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0B66CAE257678C0001498BE /* KrisCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KrisCardTests.swift; sourceTree = "<group>"; };
+		F0B66CB0257678C0001498BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0B66CB5257678C0001498BE /* KrisCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KrisCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0B66CB9257678C0001498BE /* KrisCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KrisCardUITests.swift; sourceTree = "<group>"; };
+		F0B66CBB257678C0001498BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0B66CCD25767E33001498BE /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0B66C91257678BF001498BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0B66CA7257678C0001498BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0B66CB2257678C0001498BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0B66C8B257678BF001498BE = {
+			isa = PBXGroup;
+			children = (
+				F0B66C96257678BF001498BE /* KrisCard */,
+				F0B66CAD257678C0001498BE /* KrisCardTests */,
+				F0B66CB8257678C0001498BE /* KrisCardUITests */,
+				F0B66C95257678BF001498BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0B66C95257678BF001498BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0B66C94257678BF001498BE /* KrisCard.app */,
+				F0B66CAA257678C0001498BE /* KrisCardTests.xctest */,
+				F0B66CB5257678C0001498BE /* KrisCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0B66C96257678BF001498BE /* KrisCard */ = {
+			isa = PBXGroup;
+			children = (
+				F0B66CCC25767DD5001498BE /* font */,
+				F0B66C97257678BF001498BE /* AppDelegate.swift */,
+				F0B66C99257678BF001498BE /* SceneDelegate.swift */,
+				F0B66C9B257678BF001498BE /* ContentView.swift */,
+				F078F9A5257699DC0054E632 /* InfoView.swift */,
+				F0B66C9D257678C0001498BE /* Assets.xcassets */,
+				F0B66CA2257678C0001498BE /* LaunchScreen.storyboard */,
+				F0B66CA5257678C0001498BE /* Info.plist */,
+				F0B66C9F257678C0001498BE /* Preview Content */,
+			);
+			path = KrisCard;
+			sourceTree = "<group>";
+		};
+		F0B66C9F257678C0001498BE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F0B66CA0257678C0001498BE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F0B66CAD257678C0001498BE /* KrisCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0B66CAE257678C0001498BE /* KrisCardTests.swift */,
+				F0B66CB0257678C0001498BE /* Info.plist */,
+			);
+			path = KrisCardTests;
+			sourceTree = "<group>";
+		};
+		F0B66CB8257678C0001498BE /* KrisCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F0B66CB9257678C0001498BE /* KrisCardUITests.swift */,
+				F0B66CBB257678C0001498BE /* Info.plist */,
+			);
+			path = KrisCardUITests;
+			sourceTree = "<group>";
+		};
+		F0B66CCC25767DD5001498BE /* font */ = {
+			isa = PBXGroup;
+			children = (
+				F0B66CCD25767E33001498BE /* Pacifico-Regular.ttf */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0B66C93257678BF001498BE /* KrisCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0B66CBE257678C0001498BE /* Build configuration list for PBXNativeTarget "KrisCard" */;
+			buildPhases = (
+				F0B66C90257678BF001498BE /* Sources */,
+				F0B66C91257678BF001498BE /* Frameworks */,
+				F0B66C92257678BF001498BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KrisCard;
+			productName = KrisCard;
+			productReference = F0B66C94257678BF001498BE /* KrisCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0B66CA9257678C0001498BE /* KrisCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0B66CC1257678C0001498BE /* Build configuration list for PBXNativeTarget "KrisCardTests" */;
+			buildPhases = (
+				F0B66CA6257678C0001498BE /* Sources */,
+				F0B66CA7257678C0001498BE /* Frameworks */,
+				F0B66CA8257678C0001498BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0B66CAC257678C0001498BE /* PBXTargetDependency */,
+			);
+			name = KrisCardTests;
+			productName = KrisCardTests;
+			productReference = F0B66CAA257678C0001498BE /* KrisCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0B66CB4257678C0001498BE /* KrisCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0B66CC4257678C0001498BE /* Build configuration list for PBXNativeTarget "KrisCardUITests" */;
+			buildPhases = (
+				F0B66CB1257678C0001498BE /* Sources */,
+				F0B66CB2257678C0001498BE /* Frameworks */,
+				F0B66CB3257678C0001498BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0B66CB7257678C0001498BE /* PBXTargetDependency */,
+			);
+			name = KrisCardUITests;
+			productName = KrisCardUITests;
+			productReference = F0B66CB5257678C0001498BE /* KrisCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0B66C8C257678BF001498BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					F0B66C93257678BF001498BE = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					F0B66CA9257678C0001498BE = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = F0B66C93257678BF001498BE;
+					};
+					F0B66CB4257678C0001498BE = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = F0B66C93257678BF001498BE;
+					};
+				};
+			};
+			buildConfigurationList = F0B66C8F257678BF001498BE /* Build configuration list for PBXProject "KrisCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0B66C8B257678BF001498BE;
+			productRefGroup = F0B66C95257678BF001498BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0B66C93257678BF001498BE /* KrisCard */,
+				F0B66CA9257678C0001498BE /* KrisCardTests */,
+				F0B66CB4257678C0001498BE /* KrisCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0B66C92257678BF001498BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0B66CA4257678C0001498BE /* LaunchScreen.storyboard in Resources */,
+				F0B66CCE25767E33001498BE /* Pacifico-Regular.ttf in Resources */,
+				F0B66CA1257678C0001498BE /* Preview Assets.xcassets in Resources */,
+				F0B66C9E257678C0001498BE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0B66CA8257678C0001498BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0B66CCF25767E33001498BE /* Pacifico-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0B66CB3257678C0001498BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0B66CD025767E33001498BE /* Pacifico-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0B66C90257678BF001498BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F078F9A6257699DC0054E632 /* InfoView.swift in Sources */,
+				F0B66C98257678BF001498BE /* AppDelegate.swift in Sources */,
+				F0B66C9A257678BF001498BE /* SceneDelegate.swift in Sources */,
+				F0B66C9C257678BF001498BE /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0B66CA6257678C0001498BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0B66CAF257678C0001498BE /* KrisCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0B66CB1257678C0001498BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0B66CBA257678C0001498BE /* KrisCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0B66CAC257678C0001498BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0B66C93257678BF001498BE /* KrisCard */;
+			targetProxy = F0B66CAB257678C0001498BE /* PBXContainerItemProxy */;
+		};
+		F0B66CB7257678C0001498BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0B66C93257678BF001498BE /* KrisCard */;
+			targetProxy = F0B66CB6257678C0001498BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0B66CA2257678C0001498BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0B66CA3257678C0001498BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0B66CBC257678C0001498BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0B66CBD257678C0001498BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0B66CBF257678C0001498BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"KrisCard/Preview Content\"";
+				DEVELOPMENT_TEAM = V4H8WGK6Y5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = KrisCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kmitina.KrisCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0B66CC0257678C0001498BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"KrisCard/Preview Content\"";
+				DEVELOPMENT_TEAM = V4H8WGK6Y5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = KrisCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kmitina.KrisCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F0B66CC2257678C0001498BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4H8WGK6Y5;
+				INFOPLIST_FILE = KrisCardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kmitina.KrisCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KrisCard.app/KrisCard";
+			};
+			name = Debug;
+		};
+		F0B66CC3257678C0001498BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4H8WGK6Y5;
+				INFOPLIST_FILE = KrisCardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kmitina.KrisCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KrisCard.app/KrisCard";
+			};
+			name = Release;
+		};
+		F0B66CC5257678C0001498BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4H8WGK6Y5;
+				INFOPLIST_FILE = KrisCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kmitina.KrisCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KrisCard;
+			};
+			name = Debug;
+		};
+		F0B66CC6257678C0001498BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4H8WGK6Y5;
+				INFOPLIST_FILE = KrisCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kmitina.KrisCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KrisCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0B66C8F257678BF001498BE /* Build configuration list for PBXProject "KrisCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0B66CBC257678C0001498BE /* Debug */,
+				F0B66CBD257678C0001498BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0B66CBE257678C0001498BE /* Build configuration list for PBXNativeTarget "KrisCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0B66CBF257678C0001498BE /* Debug */,
+				F0B66CC0257678C0001498BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0B66CC1257678C0001498BE /* Build configuration list for PBXNativeTarget "KrisCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0B66CC2257678C0001498BE /* Debug */,
+				F0B66CC3257678C0001498BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0B66CC4257678C0001498BE /* Build configuration list for PBXNativeTarget "KrisCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0B66CC5257678C0001498BE /* Debug */,
+				F0B66CC6257678C0001498BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0B66C8C257678BF001498BE /* Project object */;
+}
